@@ -1,0 +1,87 @@
+body {
+    background-color: #ffb6c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 5px solid white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    color: #ff0095;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+}
+
+#yesBtn {
+    background-color: #4CAF50;
+    color: white;
+    position: relative;
+    transition: left 0.5s ease, top 0.5s ease;
+}
+
+#noBtn {
+    background-color: #ff2121;
+    color: white;
+}
+
+#yesBtn:hover, #noBtn:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.8);
+}
+
+button.goBackBtn {
+    background-color: #ffcc00; /* Change to any color you like */
+    color: black;
+    border: 3px solid white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.goBackBtn:hover {
+    background-color: #ff9900; /* Darker shade on hover */
+    color: white;
+    transform: scale(1.1);
+}
+
+
+.hidden {
+    display: none;
+}

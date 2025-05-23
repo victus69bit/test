@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Proposal</title>
+    <link rel="stylesheet" href="proposal.css">
+</head>
+<body>
+    <div class="container" id="proposalPage">
+        <h1>You wanna be my Valentine? ❤️</h1>
+        <img src="https://media.tenor.com/JL0YrycH2gkAAAAj/peach-goma-crate-orange.gif" alt="Valentine Image" class="valentine-img">
+        <div class="buttons">
+            <button id="yesBtn">YESSSS 💚</button>
+            <button id="noBtn">NO ❌</button>
+        </div>
+    </div>
+
+    <div class="container hidden" id="yesPage">
+        <h1>YAY! ❤️ I knew you'd say YES!</h1>
+        <img src="https://media.tenor.com/lnI645QIjMAAAAAj/gatitos-enamorados-besos-de-amor.gif" alt="Happy Image">
+        <button class="goBackBtn" onclick="goBack()">Go Back</button>
+    </div>
+
+    <div class="container hidden" id="noPage">
+        <h1>he he he!!!! I don't care....😒</h1>
+        <img src="https://i.pinimg.com/originals/ef/ed/c3/efedc335b222538893f0266a2e40c54f.gif" alt="Attitude Image">
+        <button class="goBackBtn" onclick="goBack()">Go Back</button>
+    </div>
+
+    <script src="proposal.js"></script>
+</body>
+</html>
